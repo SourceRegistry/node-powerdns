@@ -1,6 +1,6 @@
-export { Client } from './client';
-export * from './types';
+export { Client } from './client.js';
+export * from './types.js';
 
-import {Client} from './client';
+import {Client} from './client.js';
 
 export default Client;

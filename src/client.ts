@@ -1,4 +1,4 @@
-import {Versions} from './types';
+import {Versions} from './types.js';
 import type {
     Autoprimary,
     CacheFlushResult,
@@ -23,7 +23,7 @@ import type {
     ZoneSummary,
     ZoneCreateRequest,
     ZoneUpdateRequest
-} from './types';
+} from './types.js';
 
 const encodePathSegment = (value: string | number) => encodeURIComponent(String(value));
 const stringify = (value: { [key: string]: unknown } = {}) => {
